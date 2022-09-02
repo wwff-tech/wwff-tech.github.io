@@ -1,1 +1,4 @@
 .dccache
+themes/*.zip
+themes/*.tgz
+public
