@@ -5,7 +5,7 @@ draft: false
 permalink: /about/
 ---
 
-# About
+
 
 test test foobar baz
 
