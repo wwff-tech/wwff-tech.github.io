@@ -1,52 +1,78 @@
 baseURL = 'https://www.wwff.tech/'
-languageCode = 'en-gb'
-title = 'My New Hugo Site'
-theme        = "hello-friend-ng"
-paginate     = 20
+title = "WWFF.tech"
+copyright = "Copyright © 2021-2022, Mike Preston and the WWFF team."
+paginate = 2
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-XXXX"
+DisqusShortname = ""
+theme = "hugo-theme-chunky-poster"
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
-  # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
-
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 0
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
 
-[languages]
-  [languages.en]
-    title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+[params]
+  author = "WWFF Team"
+  description = "A rag-tag bunch of random coders and hackers"
+  homepageImage = "/images/homepage-image.jpg"
+  dateFormat = "January 2, 2006"
+  
+  share = true
+  showLanguageSwitcher = false
 
-    [languages.en.params.logo]
-      logoText = "hello friend ng"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
+  customCSS = []
+  customJS = []
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+  [params.social]
+    rss = true
+    email = "mike@wwff.tech"
+    facebook = "https://facebook.com"
+    twitter = "https://twitter.com"
+    linkedin = "https://linkedin.com"
+    stack-overflow = "https://stackoverflow.com"
+    instagram = "https://stackoverflow.com"
+    github = "https://github.com"
+    weibo = "https://www.weibo.com"
+    medium = "https://medium.com"
+    pinterest = "https://pinterest.com"
+    reddit = "https://reddit.com"
+    gitlab = "https://gitlab.com"
+    mastodon = "https://mastodon.social"
+    keybase = "https://keybase.io/"
+
+  [params.prismJS]
+    enable = true
+    theme = ""
+
+  [params.commento]
+    enable = false
+    url = "https://commento.io"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
