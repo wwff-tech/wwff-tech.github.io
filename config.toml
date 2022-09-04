@@ -8,7 +8,7 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-XXXX"
 DisqusShortname = ""
-theme = "hugo-theme-chunky-poster"
+theme = "chunky-poster"
 
 [menu]
   [[menu.main]]
