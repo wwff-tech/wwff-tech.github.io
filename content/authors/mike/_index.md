@@ -1,7 +1,7 @@
 ---
 name: "Mike Preston"
 images: ["mike.jpg"]
-twitter: "@darkflib"
+twitter: "darkflib"
 ---
 
 Mike has been in the tech industry for well over 20 years, which means he is experienced but also kinda old-school.
