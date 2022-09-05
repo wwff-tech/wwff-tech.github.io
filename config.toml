@@ -82,5 +82,5 @@ author = "authors"
   [services.twitter]
     disableInlineCSS = true
 
-permalinks:
-  posts: /:year/:month/:title/
+  [permalinks]
+  posts = /:year/:month/:title/
