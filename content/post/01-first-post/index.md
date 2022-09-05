@@ -5,7 +5,8 @@ images: ["/images/pexels-kate-trifo-6414317.jpg"]
 categories: []
 tags: []
 authors: ['mike']
-summary: "A man a plan a canal, Panama..<br />*all work* and **no** play, makes jack a dull boy"
+summary: "A man a plan a canal, Panama...  
+  *all work* and **no** play, makes jack a dull boy"
 ---
 
 Test Page

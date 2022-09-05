@@ -7,7 +7,6 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-XXXX"
-DisqusShortname = ""
 theme = "chunky-poster"
 
 [menu]
@@ -21,6 +20,11 @@ theme = "chunky-poster"
     name = "About"
     url = "/about/"
     weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 0
 
 [taxonomies]
 category = "categories"
@@ -31,9 +35,11 @@ author = "authors"
 [params]
   author = "WWFF Team"
   description = "A rag-tag bunch of random coders and hackers"
-  homepageImage = "/images/homepage-image.jpg"
+  homepageImage = "/images/pexels-aphiwat-chuangchoem-365637.jpg"
   dateFormat = "January 2, 2006"
-  
+  GitHubUser: wwff-tech
+  SidebarRecentLimit: 5
+
   share = true
   showLanguageSwitcher = false
 
@@ -76,3 +82,6 @@ author = "authors"
 
   [services.twitter]
     disableInlineCSS = true
+
+permalinks:
+  posts: /:year/:month/:title/
