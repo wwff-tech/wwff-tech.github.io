@@ -83,4 +83,4 @@ author = "authors"
     disableInlineCSS = true
 
   [permalinks]
-  posts = /:year/:month/:title/
+  posts = "/:year/:month/:title/"
