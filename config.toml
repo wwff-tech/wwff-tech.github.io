@@ -37,9 +37,8 @@ author = "authors"
   description = "A rag-tag bunch of random coders and hackers"
   homepageImage = "/images/pexels-aphiwat-chuangchoem-365637.jpg"
   dateFormat = "January 2, 2006"
-  GitHubUser: wwff-tech
+  GitHubUser: "wwff-tech"
   SidebarRecentLimit: 5
-
   share = true
   showLanguageSwitcher = false
 
